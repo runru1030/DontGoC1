@@ -9,8 +9,8 @@ const AppRouter = () => {
     <BrowserRouter basename={'/DontGoC1'}>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/post" element={<Post />} />
-        <Route path="/letter" element={<Letter />} />
+        <Route path="/DontGoC1/post" element={<Post />} />
+        <Route path="/DontGoC1/letter" element={<Letter />} />
       </Routes>
     </BrowserRouter>
   );
