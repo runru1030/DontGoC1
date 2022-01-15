@@ -44,7 +44,7 @@ height: 100vh;
 font-weight: lighter;
 gap:20px;
 font-size: large;
-background-image: url('./bg.png');
+background-image: url(${process.env.PUBLIC_URL}+'/bg.png');
 h1{
     font-weight: lighter;
 }

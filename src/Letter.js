@@ -6,7 +6,7 @@ const Letter = () => {
     }, []);
     return (
         <Container>
-            <audio src="이젠안녕.mp3" autoPlay/>
+            <audio src={process.env.PUBLIC_URL+"/이젠안녕.mp3"} autoPlay/>
             <Block>
                 <p>
                     To. 비니<br/><br/>
@@ -21,8 +21,8 @@ const Letter = () => {
                     나와의 추억 기억해~😘
                 </p>
                 <Row>
-                    <img src="./4.jpeg" width="30%"/>
-                    <img src="./5.jpeg" width="50%" /></Row>
+                    <img src={process.env.PUBLIC_URL+"/4.jpeg"} width="30%"/>
+                    <img src={process.env.PUBLIC_URL+"/5.jpeg"} width="50%" /></Row>
                 <span>From. 졸개</span>
             </Block>
             <Block>
@@ -43,7 +43,7 @@ const Letter = () => {
                     비니야 안녕 우리 알게 된지 벌써 3년 이게맞나? 너가 어느새 이렇게 커서 미국을 다가고 아주 감계무량ㅇㅈㄹㅋㅋ마파두부 딱 기다려… 널 울게 만들어줄게 잔잔하고 돌아있는 우리의 텐션 거기가서 아시안베이비걸(ABG) 되어 돌아오면 안된다.. 그럴꺼면 와서 나도 알려줘야함; 혼자 핫해지면 못참지 못참지~ 나 진짜 미국 가고싶은데 너 보러 간다고 핑계삼고 한번 돈 모아볼게… 내 주식 응원해줘 내 주식 수익률이 예금이자보다 못해^.ㅠ 너 언제와? 지현이랑 너랑 나랑 다시 만나서 리유니언 찍자 기다려.. 빨리와.. 인스타에 영어로 글쓰고 사진 올리면 알지? 너 그러면 진짜..ㅋ 내가 좋아요 댓글 𝙅𝙊𝙉𝙉𝘼 눌를게^^ ㅋㅋㄱㅅㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱㅋㄱ 잘 다녀오고 너의 빈자리는 언제나 비워져 있다..잘만다녀와..
                 </p>
                 <Row>
-                    <img src="./지아.jpeg" width="100%"/></Row>
+                    <img src={process.env.PUBLIC_URL+"/지아.jpeg"} width="100%"/></Row>
                 <span>From. 지아</span>
             </Block>
             <Block>

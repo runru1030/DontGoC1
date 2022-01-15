@@ -5,23 +5,23 @@ const Post = () => {
     return (
         <Container>
             <span>너의 출국을 생각하니 벌써 슬퍼</span>
-            <img src="./cry.png" width="30%"/>
+            <img src={process.env.PUBLIC_URL+"/cry.png"} width="30%"/>
             <span>기여운 우리를 두고 가는 너도 맘이 무겁지?</span>
-            <img src="./7.jpeg" width="80%"/>
-            <img src="./10.jpeg" width="80%"/>
-            <img src="./11.jpeg" width="80%"/>
+            <img src={process.env.PUBLIC_URL+"/7.jpeg"} width="80%"/>
+            <img src={process.env.PUBLIC_URL+"/10.jpeg"} width="80%"/>
+            <img src={process.env.PUBLIC_URL+"/11.jpeg"} width="80%"/>
             <span>그리고</span>
             <span>해커톤에 신난 시원이</span>
-            <img src="./1.jpeg" width="80%"/>
+            <img src={process.env.PUBLIC_URL+"/1.jpeg"} width="80%"/>
             <span>마라탕에 미친 시원이</span>
-            <img src="./2.jpeg" width="80%"/>
+            <img src={process.env.PUBLIC_URL+"/2.jpeg"} width="80%"/>
             <span>술을 사랑한 쾌녀 시원이</span>
             <Row>
-            <img src="./9.png" width="40%"/>
-                <img src="./8.jpeg" width="40%" />
+            <img src={process.env.PUBLIC_URL+"/9.png"} width="40%"/>
+                <img src={process.env.PUBLIC_URL + "/8.jpeg"} width="40%" />
             </Row>
             <span>드레스가 잘 어울리는 시원이</span>
-            <img src="./6.jpeg" width="80%"/>
+            <img src={process.env.PUBLIC_URL+"/6.jpeg"} width="80%"/>
             <span>우리는 모두 그리울거야 {'>,<'}</span>
             <Link to="/letter"><Btn>TO. 비니</Btn></Link>
         </Container>
