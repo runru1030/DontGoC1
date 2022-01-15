@@ -6,7 +6,7 @@ import Post from "./Post";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter basename={'/DontGoC1'}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/post" element={<Post />} />
