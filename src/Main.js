@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <Container>
         <span>만능 재주꾼 istp 김시원</span>
-        <img src="c1__cool__.png" width="60%"/>
+        <img src="./c1__cool__.png" width="60%"/>
             <h1>헌정 홈페이지</h1>
             <Text>
                 <span style={{'font-size':'x-large'}}>김시원 이대로 보낼 수 없다.</span>
@@ -44,7 +44,7 @@ height: 100vh;
 font-weight: lighter;
 gap:20px;
 font-size: large;
-background-image: url('bg.png');
+background-image: url('./bg.png');
 h1{
     font-weight: lighter;
 }
