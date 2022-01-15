@@ -6,9 +6,9 @@ import Post from "./Post";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter basename={'/DontGoC1'}>
+    <BrowserRouter >
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/DontGoC1" element={<Main />} />
         <Route path="/DontGoC1/post" element={<Post />} />
         <Route path="/DontGoC1/letter" element={<Letter />} />
       </Routes>
