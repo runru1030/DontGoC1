@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <Container>
         <span>만능 재주꾼 istp 김시원</span>
-        <img src={process.env.PUBLIC_URL+'c1__cool__.png'} width="60%"/>
+        <img src={process.env.PUBLIC_URL+'/c1__cool__.png'} width="60%"/>
             <h1>헌정 홈페이지</h1>
             <Text>
                 <span style={{'font-size':'x-large'}}>김시원 이대로 보낼 수 없다.</span>
